@@ -34,7 +34,7 @@ const select = async (item: any) => {
         class="absolute mt-1 bg-gray-800 top-[30px] border rounded shadow z-50 w-full max-h-60 overflow-auto">
         <ul>
             <li v-if="!items || items.length === 0" class="p-2 text-gray-500">No results</li>
-            <li v-for="(it, idx) in items" :key="idx" @click="select(it)" class="p-2 hover:bg-gray-100 cursor-pointer">
+            <li v-for="(it, idx) in items" :key="idx" @click="select(it)" class="p-2 hover:bg-gray-700 cursor-pointer">
                 {{ it?.name ?? it?.title ?? it }}
             </li>
         </ul>
