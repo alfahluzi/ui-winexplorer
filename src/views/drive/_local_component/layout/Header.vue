@@ -22,7 +22,6 @@ const performSearch = async () => {
     const name = searchText.value
     if (!name) return
     const { data, error } = await DriveApi.searchByName(name)
-    console.log("res", data, error)
     if (!error) {
         searchResults.value = data.data ?? []
         showDropdown.value = true
