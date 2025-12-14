@@ -20,6 +20,7 @@
     "@tailwindcss/vite": "^4.1.17",
     "lucide-vue-next": "^0.560.0",
     "pinia": "^3.0.4",
+    "playwright": "^1.57.0",
     "tailwindcss": "^4.1.17",
     "vue": "^3.5.25",
     "vue-router": "^4.6.3"
